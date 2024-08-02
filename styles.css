@@ -5,22 +5,16 @@
     margin: 0;
     box-sizing: border-box;
 }
-body{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-}
+
 header{
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
 .top{
-    width: 100vw;
-    height: 100vh;
-    padding: 30px 223px;
     background-color: #F7F8FD;
+    height: 856px;
+    padding: 30px 223px;
 }
 .navigation{
     font-family: 'Poppins', sans-serif;
@@ -49,13 +43,13 @@ header{
     border: none;
 }
 .card{
+    background-color: #F7F8FD;
     margin-top: 120px;
-    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 71px;
-    margin-bottom: 200px;
+    padding-bottom: 200px;
 }
 .card-text{
     width: 585px;
@@ -94,4 +88,7 @@ header{
     font-weight: 600;
     line-height: normal;
     border: none;
+}
+.search {
+    height: 500px;
 }
