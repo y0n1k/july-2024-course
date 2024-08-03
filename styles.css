@@ -5,7 +5,6 @@
     margin: 0;
     box-sizing: border-box;
 }
-
 header{
     display: flex;
     justify-content: space-between;
@@ -87,4 +86,46 @@ header{
     font-weight: 600;
     line-height: normal;
     border: none;
+}
+.search-card{
+    padding: 30px 223px;
+}
+.title {
+    color: #03045E;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+}
+.search-bar{
+    display: flex;
+    width: 625px;
+    padding: 18px 0 18px 20px;
+    align-items: flex-start;
+    border-radius: 5px;
+    background: #F6F6F6;
+    border: none;
+    color: #03045E;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    opacity: 0.5;
+}
+.find-button{
+    position: absolute;
+    left: 466px;
+    padding: 15px 38px 18px 38px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 0 5px 5px 0;
+    background: #0098FF;
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+}
+.search{
+    display: flex;
+    position: relative;
 }
