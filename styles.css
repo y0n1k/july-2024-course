@@ -12,7 +12,7 @@ header{
 .top{
     background-color: #F7F8FD;
     height: 856px;
-    padding: 30px 223px;
+    padding: 30px 224px;
 }
 .navigation{
     font-family: 'Poppins', sans-serif;
@@ -47,7 +47,6 @@ header{
     justify-content: center;
     align-items: center;
     gap: 71px;
-    padding-bottom: 200px;
 }
 .card-text{
     width: 585px;
@@ -87,14 +86,12 @@ header{
     line-height: normal;
     border: none;
 }
-.search-card{
-    padding: 30px 223px;
-}
 .title {
     color: #03045E;
     font-family: 'Ubuntu', sans-serif;
     font-size: 32px;
     font-weight: 700;
+    margin-bottom: 36px;
 }
 .search-bar{
     display: flex;
@@ -128,4 +125,54 @@ header{
 .search{
     display: flex;
     position: relative;
+}
+.line{
+    width: 1px;
+    height: 134px;
+    opacity: 0.1;
+    background: #03045E;
+}
+.domain{
+    color: #0098FF;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+.price{
+    color: #03045E;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    opacity: 0.3;
+}
+.domain-price-box{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 7px;
+}
+.domain-prices{
+    display: flex;
+    justify-content: space-between;
+    gap: 116px;
+}
+.search-card{
+    gap: 69px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.domain-card{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 32px;
+}
+.section-two{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 150px 224px;
 }
