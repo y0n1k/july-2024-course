@@ -1,18 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+/*Загальне*/
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+a{
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+/*Загальне*/
+
+/*Навігаційне меню*/
 header{
     display: flex;
     justify-content: space-between;
-}
-.top{
-    background-color: #F7F8FD;
-    height: 856px;
-    padding: 30px 224px;
 }
 .navigation{
     font-family: 'Poppins', sans-serif;
@@ -22,7 +27,6 @@ header{
     gap: 40px;
 }
 .navigation a{
-    text-decoration: none;
     color:#03045E;
     font-weight: 500;
 }
@@ -40,6 +44,15 @@ header{
     font-weight: 700;
     border: none;
 }
+/*Навігаційне меню*/
+
+.top{
+    background-color: #F7F8FD;
+    height: 856px;
+    padding: 30px 224px 0 224px;
+}
+
+/*Картка з картинкою*/
 .card{
     background-color: #F7F8FD;
     margin-top: 120px;
@@ -78,13 +91,13 @@ header{
     align-items: center;
     border-radius: 5px;
     background: #0098FF;
+    border: none;
+}
+.card-text button>a{
     color: #FFF;
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
-    border: none;
 }
 .title {
     color: #03045E;
@@ -93,6 +106,8 @@ header{
     font-weight: 700;
     margin-bottom: 36px;
 }
+/*Картка з картинкою*/
+
 .search-bar{
     display: flex;
     width: 625px;
@@ -139,6 +154,7 @@ header{
     font-weight: 700;
 }
 .price{
+    width: 95px;
     color: #03045E;
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
@@ -158,6 +174,7 @@ header{
     gap: 116px;
 }
 .search-card{
+    height: 134px;
     gap: 69px;
     display: flex;
     justify-content: center;
@@ -185,10 +202,15 @@ header{
     gap: 30px;
 }
 .service-card svg{
-    width: 100px;
-    height: 100px;
+    width: 60px;
+    height: 60px;
     flex-shrink: 0;
     fill: #F6F6F6;
+}
+.service-card>div{
+    width: 100px;
+    height: 100px;
+    background-color: #F6F6F6;
 }
 .service-card>p:nth-child(2){
     color: #03045E;
@@ -239,7 +261,7 @@ header{
 }
 .section-three{
     padding: 150px 224px 150px 224px;
-    background-color: #F6F6F6;
+    background-color: rgba(246, 246, 246, 40%);
 }
 .section-four{
     display: flex;
@@ -326,16 +348,171 @@ header{
     gap: 30px;
 }
 footer{
+    background-color: rgba(246, 246, 246, 40%);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 103px;
     height: 472px;
     padding: 100px 224px;
 }
 footer>div{
     width: 297px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
 }
-footer>div>p{
-    margin-top: 24px;
+.footer-text{
+    margin-bottom: 14px;
     color: #03045E;
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     opacity: 0.5;
+}
+.footer-caption{
+    margin-bottom: 14px;
+    color: #000;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+.socials{
+    margin-top: 24px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+footer>div:last-child>div:first-child{
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+}
+footer img{
+    margin-bottom: 24px;
+}
+address{
+    display: flex;
+    justify-content: space-between;
+    color: #03045E;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    padding: 40px 224px;
+}
+address>p{
+    width: 297px;
+}
+address>a{
+    width: 203px;
+}
+.section-six{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 60px;
+    padding: 150px 224px;
+}
+.plan-cards{
+    display: flex;
+}
+.section-six>p{
+    color: #03045E;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.plan-info{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.plan-info>div{
+    padding: 10px 0 10px 0;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+    border-bottom: 1px solid #F7F8FD;
+}
+.plan-info>div>span:first-child{
+    color: #03045E;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    opacity: 0.5;
+}
+.plan-info>div>span:last-child{
+    opacity: 0.5;
+    color: #03045E;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.plan-caption>p:first-child{
+    color: #0098FF;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+.plan-caption>p:last-child{
+    color: #03045E;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+}
+.plan-caption{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 40px;
+}
+.plan-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 40px;
+    background-color: #fff;
+    width: 318px;
+}
+.section-six button{
+    border: none;
+    padding: 11px 35px;
+    border-radius: 5px;
+    background: #03045E;
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.plan-info>div{
+    width: 100%;
+}
+.section-six>div.plan-cards>div.plan-card:nth-child(2){
+    background-color: #0098FF;
+    .plan-caption>p{
+        color: #FFF;
+    }
+    .plan-info>div>span{
+        color: #FFF;
+        opacity: 1;
+    }
 }
