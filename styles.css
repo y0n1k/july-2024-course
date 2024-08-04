@@ -241,3 +241,101 @@ header{
     padding: 150px 224px 150px 224px;
     background-color: #F6F6F6;
 }
+.section-four{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 150px 224px 150px 224px;
+}
+.section-four>p{
+    margin-bottom: 60px;
+    color: #03045E;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+}
+.clients-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 407px;
+    height: 263px;
+    flex-shrink: 0;
+    background: rgba(246, 246, 246, 40%);
+}
+.clients-card>p{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    width: 327px;
+    color: #03045E;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    opacity: 0.5;
+}
+.name-place>p:first-child{
+    color: #03045E;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+.name-place>p:last-child{
+    color: #03045E;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    opacity: 0.5;
+}
+.section-four>div{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+.section-five{
+    background: #0098FF;
+    height: 315px;
+    flex-shrink: 0;
+    padding: 100px 224px;
+}
+.section-five>div>p:first-child{
+    color: #FFF;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+}
+.section-five>div>p:last-child{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+.section-five div{
+    width: 297px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 16px;
+}
+.section-five{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+footer{
+    height: 472px;
+    padding: 100px 224px;
+}
+footer>div{
+    width: 297px;
+}
+footer>div>p{
+    margin-top: 24px;
+    color: #03045E;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    opacity: 0.5;
+}
