@@ -108,6 +108,7 @@ header{
 }
 /*Картка з картинкою*/
 
+/*Пошук*/
 .search-bar{
     display: flex;
     width: 625px;
@@ -193,6 +194,9 @@ header{
     align-items: center;
     padding: 150px 224px;
 }
+/*Пошук*/
+
+/*Послуги*/
 .service-card{
     width: 407px;
     display: inline-flex;
@@ -263,6 +267,9 @@ header{
     padding: 150px 224px 150px 224px;
     background-color: rgba(246, 246, 246, 40%);
 }
+/*Послуги*/
+
+/*Відгуки*/
 .section-four{
     display: flex;
     justify-content: center;
@@ -316,6 +323,9 @@ header{
     gap: 30px;
     margin-bottom: 40px;
 }
+/*Відгуки*/
+
+/*Статистика*/
 .section-five{
     background: #0098FF;
     height: 315px;
@@ -347,65 +357,9 @@ header{
     justify-content: center;
     gap: 30px;
 }
-footer{
-    background-color: rgba(246, 246, 246, 40%);
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 103px;
-    height: 472px;
-    padding: 100px 224px;
-}
-footer>div{
-    width: 297px;
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-}
-.footer-text{
-    margin-bottom: 14px;
-    color: #03045E;
-    font-family: 'Poppins', sans-serif;
-    font-size: 16px;
-    opacity: 0.5;
-}
-.footer-caption{
-    margin-bottom: 14px;
-    color: #000;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 16px;
-    font-weight: 700;
-}
-.socials{
-    margin-top: 24px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 20px;
-}
-footer>div:last-child>div:first-child{
-    margin-bottom: 30px;
-    display: flex;
-    flex-direction: column;
-}
-footer img{
-    margin-bottom: 24px;
-}
-address{
-    display: flex;
-    justify-content: space-between;
-    color: #03045E;
-    font-family: 'Poppins', sans-serif;
-    font-size: 12px;
-    font-style: normal;
-    padding: 40px 224px;
-}
-address>p{
-    width: 297px;
-}
-address>a{
-    width: 203px;
-}
+/*Статистика*/
+
+/*Пакети*/
 .section-six{
     display: flex;
     justify-content: center;
@@ -516,3 +470,70 @@ address>a{
         opacity: 1;
     }
 }
+/*Пакети*/
+
+
+/*Футер*/
+footer{
+    background-color: rgba(246, 246, 246, 40%);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 103px;
+    height: 472px;
+    padding: 100px 224px;
+}
+footer>div{
+    width: 297px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.footer-text{
+    margin-bottom: 14px;
+    color: #03045E;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    opacity: 0.5;
+}
+.footer-caption{
+    margin-bottom: 14px;
+    color: #000;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+.socials{
+    margin-top: 24px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+footer>div:last-child>div:first-child{
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+}
+footer img{
+    margin-bottom: 24px;
+}
+/*Футер*/
+
+/*Копірайт/Умови користування*/
+address{
+    display: flex;
+    justify-content: space-between;
+    color: #03045E;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    padding: 40px 224px;
+}
+address>p{
+    width: 297px;
+}
+address>a{
+    width: 203px;
+}
+/*Копірайт/Умови користування*/
